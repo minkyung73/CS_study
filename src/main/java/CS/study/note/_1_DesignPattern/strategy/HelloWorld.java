@@ -14,6 +14,6 @@ public class HelloWorld {
         cart.pay(new LUNACardStrategy("codumaru@example.com", "pw_example"));
 
         // pay by KAKAOCard
-        cart.pay(new KaKAOCardStrategy("Codumaru", "123456789", "123", "12/01"));
+        cart.pay(new KAKAOCardStrategy("Codumaru", "123456789", "123", "12/01"));
     }
 }

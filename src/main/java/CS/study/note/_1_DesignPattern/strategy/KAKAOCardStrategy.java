@@ -3,7 +3,7 @@ package CS.study.note._1_DesignPattern.strategy;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public class KaKAOCardStrategy implements PaymentStrategy {
+public class KAKAOCardStrategy implements PaymentStrategy {
     private String name, cardNumber, cvv, dateOfExpiry;
 
     @Override
