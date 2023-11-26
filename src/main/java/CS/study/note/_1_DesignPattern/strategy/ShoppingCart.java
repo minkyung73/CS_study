@@ -1,14 +1,13 @@
 package CS.study.note._1_DesignPattern.strategy;
 
+import lombok.AllArgsConstructor;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@AllArgsConstructor
 public class ShoppingCart {
     List<Item> items;
-
-    public ShoppingCart() {
-        this.items = new ArrayList<Item>();
-    }
 
     public void addItem(Item item) {
         this.items.add(item);

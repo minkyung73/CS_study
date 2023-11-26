@@ -1,12 +1,10 @@
 package CS.study.note._1_DesignPattern.strategy;
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 public class LUNACardStrategy implements PaymentStrategy {
     private String emailId, password;
-
-    public LUNACardStrategy(String emailId, String password) {
-        this.emailId = emailId;
-        this.password = password;
-    }
 
     @Override
     public void pay(int amount) {
